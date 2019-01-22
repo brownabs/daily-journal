@@ -1,0 +1,72 @@
+body {
+    background-color: #EDC7B7;
+}
+.header-container {
+    padding: 0 10px 0px 10px;
+    background-color: #BAB2B5;
+    border-radius: 4px; 
+}
+
+.dateOfEntry {
+    font-weight: bold;
+}
+
+.conceptsCovered {
+    font-weight: bold;
+}
+
+.journalEntry {
+    font-weight: bold;
+}
+
+.mood {
+    font-weight: bold;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    color: #AC3B61;
+}
+
+label {
+    display: flex;
+    flex-direction: column; 
+}
+
+fieldset {
+    border: 0;
+}
+
+input {
+   border-radius: 4px;
+}
+
+select {
+    border-radius: 4px;
+}
+
+textarea {
+    border-radius: 2px;
+}
+
+button {
+    border-radius: 4px;
+    height: 30px;
+    width: 8%;
+    margin: 17px;
+    border: 1px solid #123C69;
+}
+
+.dailyEntryLog {
+    margin: 1px;
+    padding: 20px;
+}
+
+.entryDate {
+    float: right;
+    font-weight: bold;
+    color: #123C69;
+
+}

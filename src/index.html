@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Daily Journal</title>
+    <link rel="stylesheet" href="styles/journal.css">
+
+</head>
+
+<body>
+    <section class="header-container">
+    <h1>Daily Journal</h1>
+    </section>
+    <form action="">
+        <section class="">
+            <fieldset>
+                <label class="dateOfEntry" for="journalDate">Date of Entry</label>
+                <input type="date" name="journalDate" id="journalDate">
+            </fieldset>
+            <fieldset>
+                <label class="conceptsCovered" for="conceptsCovered">Concepts Covered</label>
+                <input type="text" name="conceptsCovered" id="conceptsCovered">
+            </fieldset>
+            <fieldset>
+                <label class="journalEntry" for="entry">Journal Entry</label>
+                <textarea name="entry" id="entry" rows="6" cols="70"></textarea>
+            </fieldset>
+            <fieldset>
+                <label class="mood" for="mood">Mood for the day</label>
+                <select name="mood" id="mood">
+                    <option value="enthusiastic">Enthusiastic</option>
+                    <option value="optimistic">Optimistic</option>
+                    <option value="apathetic">Apathetic</option>
+                    <option value="pessimistic">Pessimistic</option>
+                    <option value="happy">Good ol' Happy</option>
+                    <option value="sad">Good ol' Sad</option>
+                    <option value="tired">Tired</option>
+                    <option value="energetic">Energetic</option>
+
+                </select>
+            </fieldset>
+
+
+    </form>
+  
+    <button type="submit" form="form1" value="Submit">Record</button>
+    <article class="entryLog">
+
+    </article>
+</body>
+<script src="scripts/journal.js"></script>
+</html>

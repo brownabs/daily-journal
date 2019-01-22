@@ -1,0 +1,30 @@
+{ 
+    "entries": [
+    {
+        "date": "January 13th, 2019",
+        "conceptsCovered": "Objects",
+        "entry": "learning how to create an object to push into an array for my journal entries",
+        "mood": "pessimistic"
+    },
+    {
+        "date": "January 20th, 2019",
+        "conceptsCovered": "Recovered everything from last week.",
+        "entry": "Tackled all the issues from last week I needed to.",
+       "mood": "tired"
+    }, 
+    {
+        "date": "January 21st, 2019", 
+        "conceptsCovered": "Coverting js into HTML representation on the DOM",
+        "entry": "Successfully wrote code to display journal entries on the DOM",
+        "mood": "happy"
+    },
+    {
+        "date": "January 22nd, 2019", 
+        "conceptsCovered": "Used fetch to connect api data with js file",
+        "entry": "Wasn't running both servers, so it took a minute to figure out why it wasn't loading on the brower",
+        "mood": "optimistic"
+
+    }
+
+]
+}

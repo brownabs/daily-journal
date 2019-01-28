@@ -12,17 +12,17 @@
 
 <body>
     <section class="header-container">
-    <h1>Daily Journal</h1>
+        <h1>Daily Journal</h1>
     </section>
-    <form action="">
-        <section class="">
+    <section class="form-container">
+        <form action="">
             <fieldset>
                 <label class="dateOfEntry" for="journalDate">Date of Entry</label>
-                <input type="date" name="journalDate" id="journalDate">
+                <input class="dateInput" type="date" name="journalDate" id="journalDate">
             </fieldset>
             <fieldset>
                 <label class="conceptsCovered" for="conceptsCovered">Concepts Covered</label>
-                <input type="text" name="conceptsCovered" id="conceptsCovered">
+                <input class="conceptsCoveredInput" type="text" name="conceptsCovered" id="conceptsCovered">
             </fieldset>
             <fieldset>
                 <label class="journalEntry" for="entry">Journal Entry</label>
@@ -30,7 +30,7 @@
             </fieldset>
             <fieldset>
                 <label class="mood" for="mood">Mood for the day</label>
-                <select name="mood" id="mood">
+                <select class="moodInput" name="mood" id="mood">
                     <option value="enthusiastic">Enthusiastic</option>
                     <option value="optimistic">Optimistic</option>
                     <option value="apathetic">Apathetic</option>
@@ -42,14 +42,20 @@
 
                 </select>
             </fieldset>
+        </form>
 
+        <button type="submit" form="form1" value="Submit">Record</button>
 
-    </form>
-  
-    <button type="submit" form="form1" value="Submit">Record</button>
+    </section>
     <article class="entryLog">
 
     </article>
 </body>
+<script src="scripts/data.js"></script>
+<script src="scripts/entryComponent.js"></script>
+<script src="scripts/entriesDOM.js"></script>
 <script src="scripts/journal.js"></script>
+
+
+
 </html>

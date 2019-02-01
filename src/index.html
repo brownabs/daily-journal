@@ -14,8 +14,8 @@
     <section class="header-container">
         <h1>Daily Journal</h1>
     </section>
-    <section class="form-container">
-        <form action="">
+    <section class="form-container" id="formContainer">
+        <form id="AbbeyForm" action="">
             <fieldset>
                 <label class="dateOfEntry" for="journalDate">Date of Entry</label>
                 <input class="dateInput" type="date" name="journalDate" id="journalDate">
@@ -26,7 +26,7 @@
             </fieldset>
             <fieldset>
                 <label class="journalEntry" for="entry">Journal Entry</label>
-                <textarea name="entry" id="entry" rows="6" cols="70"></textarea>
+                <textarea name="entry" class="entryInput" rows="6" cols="70"></textarea>
             </fieldset>
             <fieldset>
                 <label class="mood" for="mood">Mood for the day</label>
@@ -44,7 +44,7 @@
             </fieldset>
         </form>
 
-        <button type="submit" form="form1" value="Submit">Record</button>
+        <button id="recordButton" type="submit" form="form1" value="Submit">Record</button>
 
     </section>
     <article class="entryLog">

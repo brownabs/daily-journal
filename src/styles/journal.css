@@ -1,17 +1,29 @@
 body {
-    background-color: #EDC7B7;
+    background-image: url("https://www.jamesgmartin.center/wp-content/uploads/2017/09/Fotolia_169539793_Subscription_Monthly_M-1200x840.jpg")
 }
 .header-container {
     padding: 0 10px 0px 10px;
-    background-color: #BAB2B5;
+    background-color: black;
+    opacity: 0.8;
     border-radius: 4px; 
+    margin: 10px 20px 10px 20px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    color: white;
 }
 
 .form-container {
+  background-color: black;
+  opacity: 0.8;
   display: flex;
   justify-content: center;
-  flex-direction: column;
   align-items: center;
+  flex-flow: column wrap;
+  align-content: center;
 }
 
 .dateInput {
@@ -22,13 +34,13 @@ body {
 .dateOfEntry {
     font-weight: bold;
     font-size: 20px;
-    color: #123C69;
+    color: white;
 }
 
 .conceptsCovered {
     font-weight: bold;
     font-size: 20px;
-    color: #123C69;
+    color: white;
 }
 
 .conceptsCoveredInput {
@@ -39,28 +51,17 @@ body {
 .journalEntry {
     font-weight: bold;
     font-size: 20px;
-    color: #123C69;
+    color: white;
 }
 
 .mood {
     font-weight: bold;
     font-size: 20px;
-    color: #123C69;
+    color: white;
     height: 20px; 
     width: 20%
 }
 
-h1 {
-    display: flex;
-    justify-content: center;
-    font-size: 60px;
-    color: #AC3B61;
-}
-
-/* label {
-    display: flex;
-    flex-direction: column; 
-} */
 
 fieldset {
     border: 0;
@@ -86,14 +87,11 @@ button {
     border: 1px solid #123C69;
 }
 
-.dailyEntryLog {
-    margin: 1px;
+.entryLog {
+    color: white;
+    font-size: 20px;
+    margin: 10px 20px 10px 20px;
+    background-color: black;
+    opacity: 0.8;
     padding: 20px;
-}
-
-.entryDate {
-    float: right;
-    font-weight: bold;
-    color: #123C69;
-
 }
